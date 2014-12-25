@@ -1,0 +1,191 @@
+{
+    "widgetDescriptorName": "cukCookieControl",
+    "properties": [
+        {
+            "id": "apiKey",
+            "type": "stringType",
+            "name": "apiKey",
+            "required": true,
+            "helpTextResourceId": "apiHelpText",
+            "labelResourceId": "apiLabel",
+            "defaultValue": "API Key"
+        },
+        {
+            "id": "product",
+            "type": "optionType",
+            "name": "product",
+            "required": true,
+            "helpTextResourceId": "productHelpText",
+            "labelResourceId": "productLabel",
+            "defaultValue": "free",
+            "options": [
+                {
+                    "id": "productFree",
+                    "value": "free",
+                    "labelResourceId": "productFreeLabel"
+                },
+                {
+                    "id": "productPaid",
+                    "value": "paid",
+                    "labelResourceId": "productPaidLabel"
+                },
+                {
+                    "id": "productMultisite",
+                    "value": "multisite",
+                    "labelResourceId": "productMultisiteLabel"
+                },
+                {
+                    "id": "productCustom",
+                    "value": "custom",
+                    "labelResourceId": "productCustomLabel"
+                }
+            ]
+        },
+        {
+            "id": "model",
+            "type": "optionType",
+            "name": "model",
+            "required": true,
+            "helpTextResourceId": "modelHelpText",
+            "labelResourceId": "modelLabel",
+            "defaultValue": "info",
+            "options": [
+                {
+                    "id": "modelInfo",
+                    "value": "info",
+                    "labelResourceId": "modelInfoLabel"
+                },
+                {
+                    "id": "modelImplicit",
+                    "value": "implicit",
+                    "labelResourceId": "modelImplicitLabel"
+                },
+                {
+                    "id": "modelExplicit",
+                    "value": "explicit",
+                    "labelResourceId": "modelExplicitLabel"
+                }
+            ]
+        },
+        {
+            "id": "style",
+            "type": "optionType",
+            "name": "style",
+            "required": true,
+            "helpTextResourceId": "styleHelpText",
+            "labelResourceId": "styleLabel",
+            "defaultValue": "triangle",
+            "options": [
+                {
+                    "id": "styleTriangle",
+                    "value": "triangle",
+                    "labelResourceId": "styleTriangleLabel"
+                },
+                {
+                    "id": "styleSquare",
+                    "value": "square",
+                    "labelResourceId": "styleSquareLabel"
+                },
+                {
+                    "id": "styleDiamond",
+                    "value": "diamond",
+                    "labelResourceId": "styleDiamondLabel"
+                },
+                {
+                    "id": "styleBar",
+                    "value": "bar",
+                    "labelResourceId": "styleBarLabel"
+                }
+            ]
+        },
+        {
+            "id": "position",
+            "type": "optionType",
+            "name": "position",
+            "required": true,
+            "helpTextResourceId": "positionHelpText",
+            "labelResourceId": "positionLabel",
+            "defaultValue": "left",
+            "options": [
+                {
+                    "id": "styleLeft",
+                    "value": "left",
+                    "labelResourceId": "positionLeftLabel"
+                },
+                {
+                    "id": "styleRight",
+                    "value": "right",
+                    "labelResourceId": "positionRightLabel"
+                },
+                {
+                    "id": "styleTop",
+                    "value": "top",
+                    "labelResourceId": "positionTopLabel"
+                },
+                {
+                    "id": "styleBotton",
+                    "value": "bottom",
+                    "labelResourceId": "positionBottomLabel"
+                }
+            ]
+        },
+        {
+            "id": "theme",
+            "type": "optionType",
+            "name": "theme",
+            "required": true,
+            "helpTextResourceId": "themeHelpText",
+            "labelResourceId": "themeLabel",
+            "defaultValue": "light",
+            "options": [
+                {
+                    "id": "themeLight",
+                    "value": "light",
+                    "labelResourceId": "themeLightLabel"
+                },
+                {
+                    "id": "themeDark",
+                    "value": "dark",
+                    "labelResourceId": "themeDarkLabel"
+                }
+            ]
+        },
+        {
+            "id": "startOpen",
+            "type": "optionType",
+            "name": "startOpen",
+            "required": true,
+            "defaultValue": "yes",
+            "helpTextResourceId": "startOpenHelpText",
+            "labelResourceId": "startOpenLabel",
+            "options": [
+                {
+                    "id": "startOpenYes",
+                    "value": "yes",
+                    "labelResourceId": "startOpenYesLabel"
+                },
+                {
+                    "id": "startOpenNo",
+                    "value": "no",
+                    "labelResourceId": "startOpenNoLabel"
+                }
+            ]
+        },
+        {
+            "id": "countries",
+            "type": "stringType",
+            "name": "countries",
+            "helpTextResourceId": "countriesHelpText",
+            "labelResourceId": "countriesLabel",
+            "defaultValue": "GB,DE,FR,IT"
+        },
+        {
+            "id": "policyVersion",
+            "type": "stringType",
+            "name": "policyVersion",
+            "helpTextResourceId": "policyHelpText",
+            "labelResourceId": "policyLabel",
+            "defaultValue": "1"
+        }
+    ]
+}

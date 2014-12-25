@@ -1,0 +1,18 @@
+{
+  "name": "Cookie Control (Civic UK)",
+  "javascript": "cukCookieControl",
+  "i18nresources": "cukCookieControl",
+  "global": true,
+  "globalEnabled": true,
+  "config": {
+	"apiKey":"Get API key from http://www.civicuk.com/cookie-law/index",
+	"product":"free",
+	"model":"info",
+	"style":"triangle",
+	"position":"left",
+	"theme":"light",
+	"startOpen":"yes",
+	"countries":"GB,DE,FR,IT",
+	"policyVersion":"1"
+  }
+}
